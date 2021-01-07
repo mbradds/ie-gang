@@ -1,6 +1,6 @@
 {
   "name": "ie-gang",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Warn users about IE on GoC web apps.",
   "main": "dist/index.js",
   "directories": {

@@ -83,3 +83,19 @@ ieWarn(warningParams);
 ```
 
 ![plot](./examples/images/panel.png)
+
+### applyIE paramter
+
+set applyIE=True to tell ie-gang to display the warning message, even when not using IE. This is useful for development.
+
+```javascript
+import ieWarn from "ie-gang";
+let warningParams = {
+  message:
+    "We noticed you are using Internet Explorer. Please consider using a different browser for a better experience on this page.",
+  type: "alert",
+  title: false,
+  applyIE: true,
+};
+ieWarn(warningParams);
+```

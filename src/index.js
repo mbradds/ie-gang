@@ -29,9 +29,17 @@ function warnHTML(message, type = "alert", title = false) {
   return warning;
 }
 
-function ieWarn({ message = "", type = "alert", title = "Old Browser" }) {
+function ieWarn({
+  message = "",
+  type = "alert",
+  title = "Old Browser",
+  applyIE = false,
+}) {
   let warnDiv = document.getElementById("ie-warning");
   let ie = checkIE();
+  if (applyIE) {
+    ie = true;
+  }
   if (warnDiv && ie) {
     warnDiv.innerHTML = warnHTML(message, type, title);
   }
