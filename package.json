@@ -1,0 +1,31 @@
+{
+  "name": "ie-gang",
+  "version": "1.0.0",
+  "description": "Warn users about IE on GoC web apps.",
+  "main": "dist/index.js",
+  "directories": {
+    "examples": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/index.js --out-file dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbradds/highseries.git"
+  },
+  "keywords": [
+    "Internet Explorer"
+  ],
+  "author": "Grant Moss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbradds/highseries/issues"
+  },
+  "homepage": "https://github.com/mbradds/highseries#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
