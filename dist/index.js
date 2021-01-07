@@ -42,7 +42,6 @@ function ieWarn(_ref) {
       title = _ref$title === void 0 ? "Old Browser" : _ref$title;
   var warnDiv = document.getElementById("ie-warning");
   var ie = checkIE();
-  ie = true;
 
   if (warnDiv && ie) {
     warnDiv.innerHTML = warnHTML(message, type, title);

@@ -29,6 +29,14 @@ The latest [web experience toolkit (WET) and/or GCWeb](https://wet-boew.github.i
 </body>
 ```
 
+ie-gang will look for a div with an id="ie-warning". The GoC styled warning message will appear in this div.
+
+```html
+<body>
+  <div id="ie-warning"></div>
+</body>
+```
+
 ### Alert bar without title
 
 The ieWarn function will likely be imported and called somewhere in your index.js file like so:
