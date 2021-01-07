@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mbradds/highseries.git"
+    "url": "git+https://github.com/mbradds/ie-gang.git"
   },
   "keywords": [
     "Internet Explorer"
@@ -20,9 +20,9 @@
   "author": "Grant Moss",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mbradds/highseries/issues"
+    "url": "https://github.com/mbradds/ie-gang/issues"
   },
-  "homepage": "https://github.com/mbradds/highseries#readme",
+  "homepage": "https://github.com/mbradds/ie-gang#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",

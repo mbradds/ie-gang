@@ -1,6 +1,6 @@
 # IE Gang [![NPM Package](https://img.shields.io/npm/v/ie-gang)](https://www.npmjs.com/package/ie-gang)
 
-Warn users of slow performance/reduced interactivity when viewing data intensive web apps & visualizations as a result of using IE 6-11.
+Warn users of slow performance/reduced interactivity when viewing data intensive web apps & visualizations in IE 6-11.
 
 - **NPM:** https://www.npmjs.com/package/ie-gang
 
