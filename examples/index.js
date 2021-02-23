@@ -1,4 +1,4 @@
-import ieWarn from "../dist/index.js";
+import justWhy from "../dist/index.js";
 let warningParams = {
   message:
     "We noticed you are using Internet Explorer. Please consider using a different browser for a better experience on this page.",
@@ -6,4 +6,4 @@ let warningParams = {
   title: false,
   applyIE: true,
 };
-ieWarn(warningParams);
+justWhy.ieWarn(warningParams);

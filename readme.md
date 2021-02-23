@@ -42,14 +42,14 @@ ie-gang will look for a div with an id="ie-warning". The GoC styled warning mess
 The ieWarn function will likely be imported and called somewhere in your index.js file like so:
 
 ```javascript
-import ieWarn from "ie-gang";
+import justWhy from "ie-gang";
 let warningParams = {
   message:
     "We noticed you are using Internet Explorer. Please consider using a different browser for a better experience on this page.",
   type: "alert",
   title: false,
 };
-ieWarn(warningParams);
+justWhy.ieWarn(warningParams);
 ```
 
 ![plot](./examples/images/alert.png)
@@ -57,14 +57,14 @@ ieWarn(warningParams);
 ### Alert bar with title
 
 ```javascript
-import ieWarn from "ie-gang";
+import justWhy from "ie-gang";
 let warningParams = {
   message:
     "We noticed you are using Internet Explorer. Please consider using a different browser for a better experience on this page.",
   type: "alert",
   title: "Old Browser Warning",
 };
-ieWarn(warningParams);
+justWhy.ieWarn(warningParams);
 ```
 
 ![plot](./examples/images/alert-title.png)
@@ -72,14 +72,14 @@ ieWarn(warningParams);
 ### Alert panel
 
 ```javascript
-import ieWarn from "ie-gang";
+import justWhy from "ie-gang";
 let warningParams = {
   message:
     "We noticed you are using Internet Explorer. Please consider using a different browser for a better experience on this page.",
   type: "panel",
   title: "Old Browser Warning",
 };
-ieWarn(warningParams);
+justWhy.ieWarn(warningParams);
 ```
 
 ![plot](./examples/images/panel.png)
@@ -89,7 +89,7 @@ ieWarn(warningParams);
 set applyIE=True to tell ie-gang to display the warning message, even when not using IE. This is useful for development.
 
 ```javascript
-import ieWarn from "ie-gang";
+import justWhy from "ie-gang";
 let warningParams = {
   message:
     "We noticed you are using Internet Explorer. Please consider using a different browser for a better experience on this page.",
@@ -97,5 +97,5 @@ let warningParams = {
   title: false,
   applyIE: true,
 };
-ieWarn(warningParams);
+justWhy.ieWarn(warningParams);
 ```
